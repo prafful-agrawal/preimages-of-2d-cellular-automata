@@ -42,30 +42,30 @@ Write a function **solution(g)** where *g* is an array of array of bools saying 
 ### Test cases
 
 ```
->>> g = [[true, false, true],
-         [false, true, false],
-         [true, false, true]]
+>>> g = [[True, False, True],
+         [False, True, False],
+         [True, False, True]]
 >>> 
 >>> solution(g)
 >>> 4
 ```
 
 ```
->>> g = [[true, false, true, false, false, true, true, true],
-         [true, false, true, false, false, false, true, false],
-         [true, true, true, false, false, false, true, false],
-         [true, false, true, false, false, false, true, false],
-         [true, false, true, false, false, true, true, true]]
+>>> g = [[True, False, True, False, False, True, True, True],
+         [True, False, True, False, False, False, True, False],
+         [True, True, True, False, False, False, True, False],
+         [True, False, True, False, False, False, True, False],
+         [True, False, True, False, False, True, True, True]]
 >>> 
 >>> solution(g)
 >>> 254
 ```
 
 ```
->>> g = [[true, true, false, true, false, true, false, true, true, false],
-         [true, true, false, false, false, false, true, true, true, false],
-         [true, true, false, false, false, false, false, false, false, true],
-         [false, true, false, false, false, false, true, true, false, false]]
+>>> g = [[True, True, False, True, False, True, False, True, True, False],
+         [True, True, False, False, False, False, True, True, True, False],
+         [True, True, False, False, False, False, False, False, False, True],
+         [False, True, False, False, False, False, True, True, False, False]]
 >>> 
 >>> solution(g)
 >>> 11567
